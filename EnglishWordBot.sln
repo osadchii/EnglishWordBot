@@ -1,8 +1,30 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4DFDC7EE-E45C-4102-B720-1F454FC575A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6DA7B46A-06F6-4C6A-94B6-0D9BB5C9F828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishWordBot.Api", "EnglishWordBot.Api\EnglishWordBot.Api.csproj", "{28FF80C9-44C9-4253-AD41-D321DA1A3C7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishWordBot.Framework", "EnglishWordBot.Framework\EnglishWordBot.Framework.csproj", "{8094C02A-6233-463A-9FA3-1F34290E939B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28FF80C9-44C9-4253-AD41-D321DA1A3C7F} = {4DFDC7EE-E45C-4102-B720-1F454FC575A1}
+		{8094C02A-6233-463A-9FA3-1F34290E939B} = {4DFDC7EE-E45C-4102-B720-1F454FC575A1}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28FF80C9-44C9-4253-AD41-D321DA1A3C7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28FF80C9-44C9-4253-AD41-D321DA1A3C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28FF80C9-44C9-4253-AD41-D321DA1A3C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28FF80C9-44C9-4253-AD41-D321DA1A3C7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8094C02A-6233-463A-9FA3-1F34290E939B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8094C02A-6233-463A-9FA3-1F34290E939B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8094C02A-6233-463A-9FA3-1F34290E939B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8094C02A-6233-463A-9FA3-1F34290E939B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
