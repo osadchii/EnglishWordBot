@@ -11,7 +11,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers" />
+      <ProjectReference Include="..\EnglishWordBot.Framework\EnglishWordBot.Framework.csproj" />
     </ItemGroup>
 
 </Project>

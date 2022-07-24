@@ -11,7 +11,7 @@ public interface IWordsService
     Task AddTranslation(string word, string translation);
 }
 
-public class WordsService : IWordsService
+internal class WordsService : IWordsService
 {
     private readonly WordContext _context;
 

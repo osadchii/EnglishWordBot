@@ -22,4 +22,6 @@ public class UserWordMapping : BaseEntity
     public bool Disabled { get; set; }
 
     public bool Learned { get; set; }
+    public int SuccessCount { get; set; }
+    public int FailCount { get; set; }
 }
